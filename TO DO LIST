@@ -28,7 +28,7 @@ def main():
         elif choice == '3':
             task_index = int(input("Enter the task number to mark as done: ")) - 1
             if 0 <= task_index < len(tasks):
-                tasks[task_index]["done"] = True 
+                tasks[task_index]["done"] = True
                 print("Task marked as done!")
             else:
                 print("Invalid task number.")
